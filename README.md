@@ -13,6 +13,8 @@ at the end of the report there will be a total of every customer from the file(l
 
 ## specifications
 
+*DOCHBANK.COB -main program
+
 *doch.prn(files) -the final report
 
 *lakochot.dat(files) -file with customers detalis 
