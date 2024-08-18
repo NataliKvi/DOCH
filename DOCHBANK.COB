@@ -243,9 +243,10 @@
        B-TIPUL                             SECTION.
       *-----------------------------------------------------------------
        B-00.
+           MOVE "B-TIPUL" TO SHEM-SEC
+
            IF M02-SHUROT NOT < C01-GODEL-DAF
            THEN
-               MOVE    0 TO M02-SHUROT
                PERFORM S-SIYUMOT
                PERFORM K-KOTAROT
            END-IF
@@ -299,7 +300,7 @@
            WRITE D01-SHURA FROM SH05
            AFTER ADVANCING 1 LINES
 
-           ADD  8 TO M02-SHUROT
+           MOVE 8 TO M02-SHUROT
            MOVE 0 TO M03-SCHUM-DAF.
        K-EXIT.
            EXIT.
